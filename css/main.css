@@ -103,7 +103,6 @@ a {
     text-decoration: none;
     padding: 0 0.1em;
     background: rgba(255,255,255,0.5);
-    text-shadow: -1px -1px 2px rgba(100,100,100,0.9);
     border-radius: 0.2em;
     
     -webkit-transition: 0.5s;
@@ -115,11 +114,15 @@ a {
 a:hover,
 a:focus {
     background: rgba(255,255,255,1);
-    text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
+}
+
+#Intro {
+    background: rgba(255,255,255,0.2);
+    border-radius: 100%;
 }
 
 #Intro h1 {
-    font-size: 150px;
+    font-size: 120px;
     font-weight: 700;
 }
 
@@ -133,7 +136,43 @@ a:focus {
     font-weight: 400;
 }
 
+#Github li {
+    margin: 10px;
+}
+
+#Github li:nth-child(2) {
+    font-size: 27px !important;
+}
+
+#Github li:nth-child(3) {
+    font-size: 25px !important;
+}
+
+#Github li:nth-child(4) {
+    font-size: 22px !important;
+}
+
+#Github li:nth-child(5) {
+    font-size: 19px !important;
+}
+
 #Url {
-    font-size: 120px;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+#Fin h2 {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+#Fin span {
+    font-size: 25px;
     font-weight: 300;
+}
+
+#Fin p {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
