@@ -94,6 +94,7 @@ body {
     background: url(img/norwegian_rose_@2X.png); 
     text-align: center;
     font-size: 30px;
+    color: #111;
 }
 
 b, strong { font-weight: bold }
@@ -116,24 +117,38 @@ a:focus {
     background: rgba(255,255,255,1);
 }
 
-#Intro {
-    background: rgba(255,255,255,0.2);
-    border-radius: 100%;
+#Intro div {
+    border-top: 5px solid #E5442E;
+    border-bottom: 5px solid #E5442E;
+    padding: 15px 0;
+}
+
+#Intro sup {
+    letter-spacing: 21px;
+    margin-left: 8px;
+    display: inline-block;
+    color: #222;
 }
 
 #Intro h1 {
-    font-size: 120px;
+    font-size: 122px;
     font-weight: 700;
-}
-
-#Intro span {
-    font-size: 75px;
-    font-weight: 300;
+    margin-top: -28px;
+    letter-spacing: 15px;
 }
 
 #Intro h2 {
-    font-size: 100px;
+    font-size: 90px;
     font-weight: 400;
+    margin-top: -50px;
+    color: #111;
+    letter-spacing: 9px;
+}
+
+#Intro h2 q {
+    font-size: 70px;
+    font-weight: 300;
+    color: #222;
 }
 
 #Github li {
@@ -154,6 +169,30 @@ a:focus {
 
 #Github li:nth-child(5) {
     font-size: 19px !important;
+}
+
+#Padawan h2, #Jedi h2, #Luke h2, #Bonus h2 {
+    font-size: 60px;
+    font-weight: 700;
+    border-bottom: 3px solid #E5442E;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    letter-spacing: 7px;
+}
+
+#Padawan li, #Jedi li, #Luke li, #Bonus li {
+    letter-spacing: 3px;
+}
+
+#Jedi span {
+    font-weight: 300;
+    display: inline-block;
+    letter-spacing: 10px;
+}
+
+#Jedi span a {
+    font-weight: 700;
+    padding: 5px 10px;
 }
 
 #Url {
